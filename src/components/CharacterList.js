@@ -84,10 +84,7 @@ export default function CharacterList({match, history}) {
           </Row>
         </Col>
         <Col
-          xs={`${isSingleView ? `6` : `12`} `}
           style={{
-            position: "-webkit-sticky",
-            position: "sticky",
             top: 0,
             alignSelf: "flex-start"
           }}
