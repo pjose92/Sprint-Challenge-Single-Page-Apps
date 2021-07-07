@@ -29,6 +29,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 > Answer:
 
+In a traditional server-side routing, when users click on a link, the browser sends a new request to the server to retrive information along with all other components that were already downloaded like the header, footer, sidebars and more. This is not efficient at all it takes longer for the user to reach the information they requested. Client side routing, connects to the server and retrieves the HTML CSS JavaScript of the website once. After, every connection is made to the server without reloading the whole page. After that, browser's API is not used and React Router enables to move among the screens and does the routing job.
+
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
